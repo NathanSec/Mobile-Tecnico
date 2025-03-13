@@ -1,0 +1,30 @@
+EXERCÍCIO 1:
+fun main() {
+    val numerosVerdes = listOf(1, 4, 23)
+    val numerosVermelhos = listOf(17, 2)
+    
+    
+    val total = numerosVermelhos.count() + numerosVerdes.count()
+    println("O número total de elementos das duas listas somados são: $total")
+}
+-------------------------------------------------
+EXERCíCIO 2:
+fun main() {
+    val SUPORTADO = setOf("HTTP", "HTTPS", "FTP")
+    val requisitado = "smtp"
+    val ehSuportado = SUPORTADO.contains(requisitado)
+    println("Suporte para $requisitado: $ehSuportado")
+}
+-------------------------------------------------
+EXERCICIO 3:
+
+fun main() {
+    val numeroParaPalavra = mapOf(
+     2 to "dois"
+
+     )
+    
+    val n =2
+    val numExtenso = numeroParaPalavra[n]
+    println("$n por extenso é '${numExtenso}'")
+}
